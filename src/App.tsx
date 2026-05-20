@@ -1639,7 +1639,7 @@ export default function App() {
             className={`px-4 py-2 rounded-lg text-xs font-black uppercase tracking-wider transition-all flex items-center space-x-1.5 ${activeTab === 'theory' ? 'bg-emerald-500 text-slate-950 shadow-md' : 'text-slate-400 hover:text-slate-100 hover:bg-slate-850'}`}
           >
             <BookOpen className="w-4 h-4" />
-            <span>Partie 1: Théorie Officielle</span>
+            <span>Partie 1: Théorie</span>
           </button>
           <button 
             onClick={() => { setActiveTab('qcm'); resetQcm(); }}
